@@ -8,7 +8,7 @@
 <body>
     <?php
 
-    echo"<h2>Atividade 2 - Conversão de Temperatura (Celsius para Fahrenheit)</h2>";
+    echo"<h2>Atividade 2 - Conversão de Temperatura (Celsius para Fahrenheit) </h2>";
     $texto1 = "Objetivo: Trabalhar com cálculos matemáticos e variáveis. <br>
     Descrição: Crie um script que converta uma temperatura em Celsius para 
     Fahrenheit. <br> A fórmula para conversão é: F=(C x 9/5) + 32 <br> 
@@ -35,12 +35,12 @@
      echo"$texto4";
      
      //Dólar no dia 26/11/2025 ás 16:48 corresponde a USD$ 5,33
-     $valor = 503.14;
+     $valor = 533;
      $dolar = 5.33;
      $conversao = $valor / $dolar;
      $convertido = number_format($conversao, 2, ',', ',');
 
-     echo"<h2>Minha carteira conté R$ $valor em Reais, o que vale a US$ $$convertido em Dólares.</h2>";
+     echo"<h2>O valor de R$ $valor Reais Brasileiros, equivalem a US$ $convertido Dólares Americano.</h2>";
      
 
      
