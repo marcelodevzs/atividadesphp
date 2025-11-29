@@ -27,8 +27,7 @@
         echo"<br><br>";
 
         //Criado por Marcelo Augusto
-        $atividade2 = "<h2
-    >Atividade 2 - Conversão de Temperatura (Celsius para Fahrenheit)</h2>";
+        $atividade2 = "<h2>Atividade 2 - Conversão de Temperatura (Celsius para Fahrenheit)</h2>";
         $enunciado2 = "Objetivo: Trabalhar com cálculos matemáticos e variáveis. <br>
         Descrição: Crie um script que converta uma temperatura em Celsius para 
         Fahrenheit. <br> A fórmula para conversão é: F=(C x 9/5) + 32 <br> 
@@ -83,8 +82,7 @@
 
         echo "$atividade4";
         echo "$enunciado4";
-        echo "<h3>Com o dólar valendo US$ $dolarf (26/11/2025), a quantia de R$ $realf reais, equivalem a US$ $cf dólares americanos.</h3>";      
-        
+        echo "<h3>Com o dólar valendo US$ $dolarf (26/11/2025), a quantia de R$ $realf reais, equivalem a US$ $cf dólares americanos.</h3>";        
     
     ?>
 
