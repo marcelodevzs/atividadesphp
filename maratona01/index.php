@@ -27,21 +27,20 @@
         echo"<br><br>";
 
         //Criado por Marcelo Augusto
-        echo"<h2>Atividade 2 - Conversão de Temperatura (Celsius para Fahrenheit) </h2>";
-        $texto1 = "Objetivo: Trabalhar com cálculos matemáticos e variáveis. <br>
+        $atividade2 = "<h2
+    >Atividade 2 - Conversão de Temperatura (Celsius para Fahrenheit)</h2>";
+        $enunciado2 = "Objetivo: Trabalhar com cálculos matemáticos e variáveis. <br>
         Descrição: Crie um script que converta uma temperatura em Celsius para 
         Fahrenheit. <br> A fórmula para conversão é: F=(C x 9/5) + 32 <br> 
         Dica: Declare uma constante para armazenar o valor 9/5 e faça o 
-        cálculo com a variável fornecida. <br>";
+        cálculo com a variável fornecida.<br>";
+        $celsius = 44;
+        $cons = 9/5;
+        $f = ($celsius * $cons + 32);
 
-         echo"$texto1";
-
-        // F=(C+9/5)+32
-        $temperatura = 35;
-        $cons = (9 / 5);
-        $f = ($temperatura * $cons) + 32;
-
-        echo"<h3>Uma temperatude de $temperatura \u{00B0}C, corresponde a $f \u{00B0}F. <br> <br> </h3>";
+        echo "$atividade2";
+        echo "$enunciado2";
+        echo "<h3>A temperatura de $celsius \u{00B0}C (Celsius), corresponde a $f \u{00B0}F (Fahrenheit). <br><br></h3>";
 
         //Criado por João Feitoza
         echo"<h2> Atividade 3 - Empréstimo Bancário</h2>";
@@ -69,28 +68,22 @@
         echo "O valor da parcela do empréstimo é: R$ " . number_format($valorParcela, 2, ',', '.');
     
         //Criado por Marcelo Augusto
-        echo"<h2><br>Atividade 4 - Conversor de Moeda (Real para Dólar)</h2>";
-
-        $texto4 = "Objetivo: Trabalhar com variáveis, operadores e arredondamento.<br>
+        $atividade4 = "<h2><br>Atividade 4 - Conversor de Moeda (Real para Dólar)</h2>";
+        $enunciado4 = "Objetivo: Trabalhar com variáveis, operadores e arredondamento.<br>
         Descrição: Crie um script que converta uma quantia em reais para 
         dólares, com base em uma taxa de câmbio fornecida. Mostre o valor 
         convertido com 2 casas decimais.<br>
-        Dica: Use round() para arredondar o valor para 2 casas decimais. <br>";
-
-        echo"$texto4";
-     
-        //Dólar no dia 26/11/2025 ás 16:48 corresponde a USD$ 5,33
-        $real = 589.89;
+        Dica: Use round() para arredondar o valor para 2 casas decimais.<br>";
+        $real = 1518.00;
         $dolar = 5.33;
-        $realFormatado = number_format($real, 2, ',');
-        $dolarFormatado = number_format($dolar, 2, ',');
-        $conversao = $real / $dolar;
-        $convertido = number_format($conversao, 2, ',', ',');
+        $realf = number_format($real, 2, ',', '.');
+        $dolarf = number_format($dolar, 2, ',', '.');
+        $c = $real / $dolar;
+        $cf = number_format($c, 2, ',', '.');
 
-        echo"<br>Valor do Dólar no dia 26/11/2025 é R$ $dolarFormatado.";
-        
-        echo"<h3>A quantia de R$ $realFormatado Reais Brasileiros, equivalem a US$ $convertido Dólares Americano.</h3>";
-        
+        echo "$atividade4";
+        echo "$enunciado4";
+        echo "<h3>Com o dólar valendo US$ $dolarf (26/11/2025), a quantia de R$ $realf reais, equivalem a US$ $cf dólares americanos.</h3>";      
         
     
     ?>
