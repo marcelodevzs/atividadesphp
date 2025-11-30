@@ -78,11 +78,11 @@
         $realf = number_format($real, 2, ',', '.');
         $dolarf = number_format($dolar, 2, ',', '.');
         $c = $real / $dolar;
-        $cf = number_format($c, 2, ',', '.');
+        $cf = round($c);
 
         echo "$atividade4";
         echo "$enunciado4";
-        echo "<h3>Com o dólar valendo US$ $dolarf (26/11/2025), a quantia de R$ $realf reais, equivalem a US$ $cf dólares americanos.</h3>";        
+        echo "<h3>Com o dólar valendo US$ $dolarf (26/11/2025), a quantia de R$ $realf reais, equivalem a aproximadamente US$ $cf dólares americanos.</h3>";
     
     ?>
 
