@@ -206,6 +206,13 @@
         echo "Array Atualizado: ";
         print_r($elementos);
 
+        echo "<br>";
+        
+        $elementos = array_values($elementos);
+        echo "Array Reorganizado: ";
+        print_r($elementos);
+
+
         echo "<br><br><br>";
 
         $enunciado11 = "3 - Faça um programa que conte quantos números pares existem em um array. O programa deve criar um array com 10 números aleatórios e contar quantos números pares estão presentes no array. O resultado deve ser impresso na tela.<br><br>";
@@ -215,9 +222,17 @@
         $numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
         echo "Array Original: ";
         print_r($numeros);
+
         echo "<br>";
+
         $numerosPares = array_filter($numeros, function($numero) {return is_int($numero) && $numero % 2 == 0;});
         echo "Somente Números Pares: ";
+        print_r($numerosPares);
+
+        echo "<br>";
+
+        $numerosPares = array_values($numerosPares);
+        echo "Array Reorganizado: ";
         print_r($numerosPares);
 
         echo "<br><br><br>";
