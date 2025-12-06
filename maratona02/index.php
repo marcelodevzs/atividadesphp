@@ -6,7 +6,8 @@
     <title>Maratona 02</title>
 </head>
 <body>
-    <?php 
+    <?php
+        //Criado por Marcelo Augusto 
         echo "<h1>Exercícios com If e Else</h1>";
         $enunciado1 = "1 - Faça um programa que verifique se um número é positivo ou negativo. O programa deve receber um número do usuário e, em seguida, imprimir se o número é positivo ou negativo. Se o número for igual a zero, deve imprimir 'O número é zero'.";
         echo "$enunciado1";
@@ -24,6 +25,7 @@
 
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado2 = "2 - Faça um programa que classifique a nota de um estudante. O programa deve receber a nota de um estudante (de 0 a 10) e, com base nessa nota, classificar o desempenho do estudante:<br>De 0 a 4.9: 'Reprovado'<br>De 5 a 6.9: 'Recuperação'<br>De 7 a 8.9: 'Aprovado'<br>De 9 a 10: 'Aprovado com Distinção'<br><br>";
 
         echo "$enunciado2";
@@ -42,6 +44,7 @@
 
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado3 = "3 - Faça um programa que verifique se uma pessoa pode votar. O programa deve receber a idade de uma pessoa e verificar se ela pode votar ou não. A idade mínima para votar é 16 anos. Se a pessoa tiver entre 16 e 17 anos, pode votar, mas não é obrigatório. Para pessoas acima de 18 anos, o voto é obrigatório.<br><br>";
 
         echo "$enunciado3";
@@ -62,6 +65,7 @@
 
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado4 = "4 - Faça um programa que verifique se um número é par ou ímpar. O programa deve receber um número inteiro e verificar se ele é par ou ímpar. Se o número for par, o programa deve imprimir 'O número é par'. Caso contrário, deve imprimir 'O número é ímpar'.<br><br>";
 
         echo "$enunciado4";
@@ -74,6 +78,7 @@
 
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado5 = "5 - Faça um programa que calcule o preço de um ingresso de cinema baseado no horário. O programa deve receber o horário de uma sessão de cinema (em formato de 24 horas) e aplicar a seguinte lógica:<br>Se o horário for entre 10:00 e 12:00: 'Preço do ingresso: R$ 10,00' (matinal)<br>Se o horário for entre 12:01 e 17:00: 'Preço do ingresso: R$ 20,00' (diurno)<br>Se o horário for entre 17:01 e 22:00: 'Preço do ingresso: R$ 30,00' (noturno)<br>Se o horário for entre 22:01 e 23:59: 'Preço do ingresso: R$ 40,00' (última sessão)<br><br>";
 
         echo "$enunciado5";
@@ -94,6 +99,7 @@
 
         echo "<h1>Exercícios com SWITCH</h1>";
 
+        //Criado por Marcelo Augusto
         $enunciado6 = "1 - Faça um programa que determine o dia da semana. O programa deve receber um número de 1 a 7, representando um dia da semana, e imprimir o nome do dia correspondente (por exemplo, 1 = 'Domingo', 2 = 'Segunda-feira', etc.).<br><br>";
 
         echo "$enunciado6";
@@ -125,6 +131,7 @@
 
        echo"<br><br><br>";
 
+       //Criado por Marcelo Augusto
        $enunciado7 = "2 - Faça um programa que exiba a categoria de um estudante de acordo com sua nota.O programa deve receber a nota de um estudante e, com base no valor, exibir a categoria correspondente: <br>0 a 4.9: 'Reprovado'<br>5 a 6.9: 'Recuperação'<br>7 a 10: 'Aprovado'<br><br>";
 
        echo "$enunciado7";
@@ -147,6 +154,7 @@
         
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado8 = "3 - Faça um programa que calcule o preço final de um produto com base em um código de desconto. O programa deve receber um código de desconto (de 1 a 3) e aplicar o desconto correspondente ao preço do produto.<br>Código 1: 10% de desconto<br>Código 2: 20% de desconto<br>Código 3: 30% de desconto<br>Se o código for inválido, deve mostrar uma mensagem de erro.<br><br>";
 
         echo "$enunciado8";
@@ -180,6 +188,7 @@
 
         echo "<h1>Exercícios com ARRAYS</h1>";
 
+        //Criado por Marcelo Augusto
         $enunciado9 = "1 - Faça um programa que crie um array com os nomes de 5 amigos. O programa deve permitir que o usuário adicione 5 nomes ao array e, em seguida, imprimir todos os nomes.<br><br>";
 
         echo "$enunciado9";
@@ -191,6 +200,7 @@
 
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado10 = "2 - Faça um programa que remova o segundo elemento de um array. O programa deve criar um array com 5 elementos e remover o primeiro elemento do array. Após isso, o programa deve exibir o array atualizado.<br><br>";
 
         echo "$enunciado10";
@@ -215,6 +225,7 @@
 
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado11 = "3 - Faça um programa que conte quantos números pares existem em um array. O programa deve criar um array com 10 números aleatórios e contar quantos números pares estão presentes no array. O resultado deve ser impresso na tela.<br><br>";
 
         echo "$enunciado11";
@@ -237,6 +248,7 @@
 
         echo "<br><br><br>";
 
+        //Criado por Marcelo Augusto
         $enunciado12 = "4 - Faça um programa que combine dois arrays. O programa deve criar dois arrays, um contendo os números 1 a 5 e outro contendo os números 6 a 10. O programa deve juntar os dois arrays e imprimir o array final.<br><br>";
 
         echo "$enunciado12";
